@@ -35,6 +35,7 @@ namespace Books.BookContext.Domain.Bookss
             PageCount = pageCount;
             SubTypeId = subTypeId;
             AuthorId = authorId;
+
         }
     }
 }
