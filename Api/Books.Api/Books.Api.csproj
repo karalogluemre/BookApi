@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="5.0.12" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="5.0.12">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Framework\Framework.AssemblyHelper\Framework.AssemblyHelper.csproj" />
+    <ProjectReference Include="..\..\Framework\Framework.DependancyInjection\Framework.DependencyInjection.csproj" />
+    <ProjectReference Include="..\..\Framework\Framework.Facade\Framework.Facade.csproj" />
+    <ProjectReference Include="..\..\ReadModel\Books.ReadModel.Configuration\Books.ReadModel.Configuration.csproj" />
+    <ProjectReference Include="..\..\ReadModel\Books.ReadModel.Context\Books.ReadModel.Context.csproj" />
+    <ProjectReference Include="..\..\WriteModel\Books.BookContext.Configuration\Books.BookContext.Configuration.csproj" />
+  </ItemGroup>
+
+</Project>

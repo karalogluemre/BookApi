@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Framework\Framework.Facade\Framework.Facade.csproj" />
+    <ProjectReference Include="..\Books.RadModel.Queries.Contracts\Books.ReadModel.Queries.Contracts.csproj" />
+    <ProjectReference Include="..\Books.ReadModel.Context\Books.ReadModel.Context.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Framework\Framework.DependancyInjection\Framework.DependencyInjection.csproj" />
+    <ProjectReference Include="..\Books.BookContext.ApplicationService.Contract\Books.BookContext.ApplicationService.Contract.csproj" />
+    <ProjectReference Include="..\Books.BookContext.ApplicationService\Books.BookContext.ApplicationService.csproj" />
+    <ProjectReference Include="..\Books.BookContext.Domain\Books.BookContext.Domain.csproj" />
+    <ProjectReference Include="..\Books.BookContext.Facade.Contract\Books.BookContext.Facade.Contract.csproj" />
+    <ProjectReference Include="..\Books.BookContext.Facade\Books.BookContext.Facade.csproj" />
+    <ProjectReference Include="..\Books.BookContext.Infrastructure.Persistence\Books.BookContext.Infrastructure.Persistence.csproj" />
+  </ItemGroup>
+
+</Project>

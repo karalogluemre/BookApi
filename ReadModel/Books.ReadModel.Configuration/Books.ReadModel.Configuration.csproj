@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Framework\Framework.DependancyInjection\Framework.DependencyInjection.csproj" />
+    <ProjectReference Include="..\..\Framework\Framework.Mapper\Framework.Mapper.csproj" />
+    <ProjectReference Include="..\Books.RadModel.Queries.Contracts\Books.ReadModel.Queries.Contracts.csproj" />
+    <ProjectReference Include="..\Books.ReadModel.Context\Books.ReadModel.Context.csproj" />
+    <ProjectReference Include="..\Books.ReadModel.Queries.Facade\Books.ReadModel.Queries.Facade.csproj" />
+  </ItemGroup>
+
+</Project>

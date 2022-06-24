@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="2.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Framework\Framework.Facade\Framework.Facade.csproj" />
+    <ProjectReference Include="..\Books.BookContext.Facade.Contract\Books.BookContext.Facade.Contract.csproj" />
+  </ItemGroup>
+
+</Project>
